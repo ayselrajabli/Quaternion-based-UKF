@@ -2,7 +2,7 @@
 
 This project implements a **Quaternion-Based Unscented Kalman Filter (QNUKF)** in C++ for robust attitude estimation using MARG (Magnetometer, Accelerometer, Gyroscope) sensors. It leverages the mathematical structure of quaternions on the 3-sphere \( \mathbb{S}^3 \) and applies the Unscented Kalman Filter for nonlinear state estimation.
 
----
+
 
 ## Dataset Description
 
@@ -15,9 +15,9 @@ const bool generate_data = false;  // ← set to true to generate new synthetic 
 
 When `generate_data = false`, you can use your **own CSV dataset** for testing.
 
----
 
-## 📥 Input CSV Format
+
+## Input CSV Format
 
 The system expects MARG sensor data in the following format:
 
